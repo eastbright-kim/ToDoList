@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		DB4F817B2636F76E00A2BEE7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F817A2636F76E00A2BEE7 /* AppDelegate.swift */; };
 		DB4F817D2636F76E00A2BEE7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F817C2636F76E00A2BEE7 /* SceneDelegate.swift */; };
-		DB4F817F2636F76E00A2BEE7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F817E2636F76E00A2BEE7 /* ViewController.swift */; };
 		DB4F81822636F76E00A2BEE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4F81802636F76E00A2BEE7 /* Main.storyboard */; };
 		DB4F81842636F77100A2BEE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4F81832636F77100A2BEE7 /* Assets.xcassets */; };
 		DB4F81872636F77100A2BEE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4F81852636F77100A2BEE7 /* LaunchScreen.storyboard */; };
+		DB4F81912636F7D900A2BEE7 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4F81902636F7D900A2BEE7 /* ToDoListViewController.swift */; };
+		DB66BDB226371D6C004120A1 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB66BDB126371D6C004120A1 /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB4F81772636F76E00A2BEE7 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4F817A2636F76E00A2BEE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB4F817C2636F76E00A2BEE7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB4F817E2636F76E00A2BEE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB4F81812636F76E00A2BEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB4F81832636F77100A2BEE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB4F81862636F77100A2BEE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB4F81882636F77100A2BEE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4F81902636F7D900A2BEE7 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		DB66BDB126371D6C004120A1 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				DB4F817A2636F76E00A2BEE7 /* AppDelegate.swift */,
 				DB4F817C2636F76E00A2BEE7 /* SceneDelegate.swift */,
-				DB4F817E2636F76E00A2BEE7 /* ViewController.swift */,
+				DB4F81882636F77100A2BEE7 /* Info.plist */,
 				DB4F81802636F76E00A2BEE7 /* Main.storyboard */,
+				DB4F81902636F7D900A2BEE7 /* ToDoListViewController.swift */,
+				DB66BDB126371D6C004120A1 /* Todo.swift */,
 				DB4F81832636F77100A2BEE7 /* Assets.xcassets */,
 				DB4F81852636F77100A2BEE7 /* LaunchScreen.storyboard */,
-				DB4F81882636F77100A2BEE7 /* Info.plist */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -137,9 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB4F817F2636F76E00A2BEE7 /* ViewController.swift in Sources */,
 				DB4F817B2636F76E00A2BEE7 /* AppDelegate.swift in Sources */,
+				DB4F81912636F7D900A2BEE7 /* ToDoListViewController.swift in Sources */,
 				DB4F817D2636F76E00A2BEE7 /* SceneDelegate.swift in Sources */,
+				DB66BDB226371D6C004120A1 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
